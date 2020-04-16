@@ -48,3 +48,8 @@ password: CRUDmeup
 | api/{{APP_ID:int}}/           | delete         | Удалить объект с id=APP_ID               | Не требуются                                    |
 | api/{{APP_ID:int}}/change_key | patch          | Изменить api_key объекта                 | Не требуются                                    |
 | api/test/                     | get            | Запросить объект с полем api_key=api_key | "api_key": uuid                                 |
+
+
+**Замечание**
+
+В условии было оговорено, что должен использоваться Django
